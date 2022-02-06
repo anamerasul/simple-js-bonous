@@ -14,3 +14,6 @@ function sum(i){
     return i+   sum(--i)              
 }
 console.log(sum(5))
+
+//i +sum(--i)
+// 5+sum(4)
